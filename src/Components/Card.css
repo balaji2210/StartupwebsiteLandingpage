@@ -1,0 +1,51 @@
+
+
+#cards{
+    background:-webkit-linear-gradient(top, rgb(255, 230, 204) 0%, rgb(255, 250, 245) 100%);
+}
+
+
+#cards h1{
+    font-size: 2.81rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+
+#cards .container1{
+    padding: 0% 3% !important;
+}
+
+#cards h5{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+ .card:hover .card-body h5{
+    color: rgb(112, 130, 234) !important;
+}
+
+
+
+#cards .image{
+    background-image: url('Images/call.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width:450px) {
+    #cards .image{
+        background-size: cover;
+    }
+}
+
+
+#cards .btn-color{
+    background-color: rgb(79, 102, 232) ;
+    color: #ffffff;
+    font-size: 1.2rem !important;
+}
